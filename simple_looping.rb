@@ -38,8 +38,8 @@ def until_iterator(number_of_times)
       end
 
 def for_iterator(number_of_times)
-  number_of_times = 1...10
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  number_of_times = 1..7
   for for_interation in number_of_times
 puts phrase
 end
